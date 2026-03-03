@@ -1,0 +1,108 @@
+{
+  "projectType": "cli-tool",
+  "projectName": "Node Blueprint",
+  "projectDescription": "A zero-config CLI tool that scaffolds production-ready Node.js applications with your preferred tech stack in one command.",
+  "theme": "aspen",
+  "primaryColor": "#10b981",
+  "lightColor": "#34d399",
+  "darkColor": "#059669",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/interactive-mode",
+              "guides/cli-flags",
+              "guides/tech-stack-options",
+              "guides/project-structure"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/frameworks",
+              "configuration/databases",
+              "configuration/orms",
+              "configuration/authentication",
+              "configuration/features"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/templates",
+              "advanced/customization",
+              "advanced/troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contributing",
+        "groups": [
+          {
+            "group": "Development",
+            "pages": [
+              "contributing/getting-started",
+              "contributing/monorepo-structure",
+              "contributing/local-development",
+              "contributing/guidelines"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "CLI Reference",
+            "pages": [
+              "reference/commands",
+              "reference/options",
+              "reference/examples"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "reference/changelog",
+              "reference/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Zero-config scaffolding with interactive prompts",
+    "Support for Express and Fastify frameworks",
+    "Multiple database options (MySQL, PostgreSQL, MongoDB)",
+    "ORM integration (Prisma, Drizzle, Mongoose)",
+    "Built-in JWT authentication support",
+    "Docker and GitHub Actions setup",
+    "TypeScript-first approach with ESM support",
+    "Production-ready project structure"
+  ],
+  "publicApiSurface": [
+    "create-node-blueprint (main command)",
+    "--name/-n (project name)",
+    "--framework/-f (express, fastify)",
+    "--database/-d (mysql, postgres, mongodb)",
+    "--orm/-o (prisma, drizzle, mongoose)",
+    "--auth/-a (jwt-auth, none)",
+    "--features (additional features)",
+    "--git (initialize git repository)",
+    "--install (install dependencies)"
+  ]
+}
